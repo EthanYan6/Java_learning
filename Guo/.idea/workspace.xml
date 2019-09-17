@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c840e0e3-bd0f-4c7d-973a-22eb994a3558" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestDemo1/src/com/guo/test/HelloDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/TestDemo1/src/com/guo/test/HelloDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TestDemo1/src/com/guo/test/HelloDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="21" selection-start-column="21" selection-end-column="21" />
+            <state relative-caret-position="263">
+              <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -141,12 +139,12 @@
       <option name="presentableId" value="Default" />
       <updated>1568183788460</updated>
       <workItem from="1568183790178" duration="3780000" />
-      <workItem from="1568698714258" duration="3698000" />
+      <workItem from="1568698714258" duration="5392000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7478000" />
+    <option name="totallyTimeSpent" value="9172000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="15" width="1936" height="1043" extended-state="6" />
@@ -161,7 +159,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32807216" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32807216" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -171,7 +169,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.32919955" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32919955" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -189,8 +187,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/TestDemo1/src/com/guo/test/HelloDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        <state relative-caret-position="263">
+          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="18" />
         </state>
       </provider>
     </entry>

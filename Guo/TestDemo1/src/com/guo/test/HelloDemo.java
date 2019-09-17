@@ -14,9 +14,15 @@ public class HelloDemo {
         System.out.println("hello world");
         System.out.println("Ethan");
         // 尝试 print 方法
-        System.out.print("hello world");
-        System.out.print("Ethan");
+//        System.out.print("hello world");
+//        System.out.print("Ethan");
 
+        // 变量
+        int a = 1;
+        System.out.println(a);
+        float nice;
+        nice = 0.1f;
+        System.out.println(nice);
     }
 }
 
