@@ -1,5 +1,9 @@
 # Java 基础
 
+<p align="right">作者：小闫同学   
+
+<p align="right">公众号：全栈技术精选
+
 学习一门语言，第一件事当然是输出 `Hello Wrold`，下面使用 `Java` 编写一个最简单的应用程序：
 
 ```java
