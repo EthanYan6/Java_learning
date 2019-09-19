@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c840e0e3-bd0f-4c7d-973a-22eb994a3558" name="Default Changelist" comment="" />
+    <list default="true" id="c840e0e3-bd0f-4c7d-973a-22eb994a3558" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/TestDemo1/src/com/guo/test/HelloDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/TestDemo1/src/com/guo/test/HelloDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../readme.md" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TestDemo1/src/com/guo/test/HelloDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="18" />
+            <state relative-caret-position="308">
+              <caret line="83" column="9" lean-forward="true" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -32,6 +35,15 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>b</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>s</replace>
+      <replace>n</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -42,9 +54,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="15" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="358" />
+    <option name="y" value="171" />
     <option name="width" value="974" />
     <option name="height" value="1034" />
   </component>
@@ -54,6 +66,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -76,7 +89,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -138,16 +150,18 @@
       <updated>1568183788460</updated>
       <workItem from="1568183790178" duration="3780000" />
       <workItem from="1568698714258" duration="5392000" />
+      <workItem from="1568861263085" duration="6760000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9172000" />
+    <option name="totallyTimeSpent" value="15932000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="15" width="1936" height="1043" extended-state="6" />
+    <frame x="358" y="171" width="974" height="1034" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12070815" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25277162" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -156,7 +170,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32807216" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32801822" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -184,8 +198,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/TestDemo1/src/com/guo/test/HelloDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="18" />
+        <state relative-caret-position="308">
+          <caret line="83" column="9" lean-forward="true" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="9" />
         </state>
       </provider>
     </entry>
