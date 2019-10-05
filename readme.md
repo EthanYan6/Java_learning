@@ -697,3 +697,133 @@ else 条件3:
 其实 `elif` 就是 `else if` 的缩写。
 
 当然，Java 中的条件语句也**支持嵌套操作**。
+
+## 10.Java switch case 语句
+
+接下来要看一个全新的语句，那便是 `switch case` 。它的功能是你传入一个变量，然后这个变量会与一系列的值进行比较，每一个值都是一个分支，它与条件判断语句类似。首先来看一下语法：
+
+```java
+switch(变量){
+    case 值 :
+        // 执行逻辑
+        break; // 此语句可选
+    case 值 :
+        // 执行逻辑
+        break; // 此语句可选
+    default : // 可选
+        // 语句
+}
+```
+
+咋看有些恐怖，很复杂，其实不然，我们结合一个实例来理解其功能。
+
+```java
+public class Test {
+    public static void main(String args[]){
+        // swith 语句
+        String monthly_income  = "5000~7000";
+        switch (monthly_income){
+            case "1000~3000":
+                System.out.println("哥们儿你过得水深火热啊~");
+                break;
+            case "3000~5000":
+                System.out.println("哥们儿奔小康了~");
+                break;
+            case "5000~7000":
+                System.out.println("哥们儿你的生活美滋滋~");
+                break;
+            default:
+                System.out.println("哥们儿这么有钱的吗？");
+        }
+    }
+}
+```
+
+首先定义了一个人的月收入为 `5000~7000`，那么根据上述程序会输出什么呢？看看吧：
+
+```java
+哥们儿你的生活美滋滋~
+```
+
+借此我们来看一下语句是如何运行的。
+
+首先需要一个变量，这个变量的类型可以是 `byte`、`short`、`int` 或者是 `char`。但是从 JavaSE7 开始呢，添加了一个字符串 String 类型。然后这个变量会挨个与 case 后方的值进行比较，直到相等（变量类型需相同，而且必须是常量或者字面常量）
+
+> 字母常量是类型为简单类型、String类型和空类型的值在源程序中的表现。
+
+如果都不相等，那么会输出 default 中的语句。在每个 case 语句中如果遇到 `break` 会终止执行，否则继续比较，但是 default 分支是不需要 break 语句的。
+
+此语句与条件判断语句类似，但仅仅表示相等的情况。
+
+## 11.Number 和 Math 类
+
+Java 中有两个常用的类，那便是 Number 和 Math 类。官方封装这两个类并不是吃饱了撑的，而是考虑到实际开发过程中，经常需要对象，所以为内置数据类型提供其包装类。它们有 Integer、Long、Byte、Double、Float 以及 Short。
+
+> Number 类属于 java.lang 包。
+
+它可以如同内置数据类型直接用来声明变量：
+
+```java
+Integer num = 10;
+```
+
+那么 **Math** 类呢？
+
+Math 类顾名思义，包含大量的数学运算的方法以及属性等。常见的对数、三角函数等都有。
+
+## 12.Character 类
+
+Character 类其实就是对基本数据类型 char 的包装，为了更好的面向对象，并为此类创建的对象提供了一系列非常方便的方法。我们向来回忆一下之前 char 类型的值如何声明定义：
+
+```java
+char c = 'a';
+```
+
+再来看使用 Character 类的效果：
+
+```java
+Character c = new Character('a');
+```
+
+上面是通过创建对象的方式，下面还有简化版：
+
+```java
+Character c = 'a';
+```
+
+这样是不是同基本数据类型差不多了呢？上述的方式还有个名字，称为**装箱**。
+
+> 装箱：自动的将基本数据类型转化为包装器类型。
+>
+> 拆箱：自动的将包装器类型转换为基本数据类型。
+
+```java
+// 装箱
+Character c = 'a';
+// 拆箱
+char ch = c;
+```
+
+### 12.1 转移字符
+
+同 Python 中类似，转移字符即前方带有反斜杠`\`的字符。比如 `\"` 代表 `"` 本身，而非字符串的含义。另外一些常用的转移序列有：
+
+1.tab 键：`\t`
+
+2.删除键：`\b`
+
+3.换行符：`\n`
+
+4.回车键：`\r`
+
+5.单引号：`\'`
+
+6.双引号：`\"`
+
+7.反斜杠：`\\`
+
+### 12.2 Character 方法
+
+下面列举一些常用的 Character 方法：
+
+`isLetter()`看其是否为一个字母；`isDigit()` 看其是否为一个数字字符；`isWhitespace()`看其是否为一个空白字符；`isUpperCase()` 看其是否为大写字母；`isLowerCase()` 看其是否为小写字母；`toUpperCase()` 指定字母的大写形式；`toLowerCase()` 指定字母的小写形式；`toString()` 返回字符的字符串形式，字符串的长度为 1。

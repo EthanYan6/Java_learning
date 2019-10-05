@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c840e0e3-bd0f-4c7d-973a-22eb994a3558" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestDemo1/src/com/guo/test/HelloDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/TestDemo1/src/com/guo/test/HelloDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../readme.md" afterDir="false" />
     </list>
@@ -20,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TestDemo1/src/com/guo/test/HelloDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="83" column="9" lean-forward="true" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="9" />
+            <state relative-caret-position="545">
+              <caret line="99" column="9" lean-forward="true" selection-start-line="99" selection-start-column="9" selection-end-line="99" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -54,9 +55,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="358" />
-    <option name="y" value="171" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="446" />
+    <option name="y" value="77" />
     <option name="width" value="974" />
     <option name="height" value="1034" />
   </component>
@@ -66,7 +67,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -89,6 +89,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -150,18 +151,18 @@
       <updated>1568183788460</updated>
       <workItem from="1568183790178" duration="3780000" />
       <workItem from="1568698714258" duration="5392000" />
-      <workItem from="1568861263085" duration="6760000" />
+      <workItem from="1568861263085" duration="7367000" />
+      <workItem from="1569138347821" duration="1204000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15932000" />
+    <option name="totallyTimeSpent" value="17743000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="358" y="171" width="974" height="1034" extended-state="0" />
-    <editor active="true" />
+    <frame x="446" y="77" width="974" height="1034" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25277162" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26053214" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -170,7 +171,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32801822" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32801822" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -198,8 +199,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/TestDemo1/src/com/guo/test/HelloDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="83" column="9" lean-forward="true" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="9" />
+        <state relative-caret-position="545">
+          <caret line="99" column="9" lean-forward="true" selection-start-line="99" selection-start-column="9" selection-end-line="99" selection-end-column="9" />
         </state>
       </provider>
     </entry>

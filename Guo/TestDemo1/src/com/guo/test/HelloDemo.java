@@ -78,10 +78,27 @@ public class HelloDemo {
 //            System.out.print(",");
 //        }
         // if ... else
-        int i = 1;
-        if(i==1){
-            System.out.println("值为1");
+//        int i = 1;
+//        if(i==1){
+//            System.out.println("值为1");
+//        }
+
+        // swith 语句
+        String monthly_income  = "5000~7000";
+        switch (monthly_income){
+            case "1000~3000":
+                System.out.println("哥们你过得水深火热啊~");
+                break;
+            case "3000~5000":
+                System.out.println("哥们奔小康了~");
+                break;
+            case "5000~7000":
+                System.out.println("哥们你的生活美滋滋~");
+                break;
+            default:
+                System.out.println("哥们这么有钱的吗？");
         }
+
     }
 }
 
